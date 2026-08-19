@@ -1,0 +1,10 @@
+# ===== AI Document Chat - Dependencies (all 100% free & open-source) =====
+# Pinned to stable versions that work together on CPU (no GPU needed).
+
+streamlit==1.38.0            # Web user interface
+sentence-transformers==3.0.1 # Turns text into "embeddings" (AI understanding of meaning)
+faiss-cpu==1.8.0            # Super-fast search over the embeddings (vector database)
+transformers==4.44.2        # The AI model that writes the answers
+torch==2.3.1                # Engine that runs the AI models
+pypdf==4.3.1                # Reads text out of PDF files
+numpy==1.26.4               # Math helper used by everything above
